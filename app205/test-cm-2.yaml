@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: test-cm-2
+  namespace: test-ns-205
+data:
+  number: "2"
