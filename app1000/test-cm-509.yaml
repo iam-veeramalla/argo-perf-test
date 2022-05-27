@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: test-cm-509
+  namespace: test-ns-1000
+data:
+  number: "509"
