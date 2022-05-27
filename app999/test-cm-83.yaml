@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: test-cm-83
+  namespace: test-ns-999
+data:
+  number: "83"

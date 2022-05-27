@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: test-cm-43
+  namespace: test-ns-991
+data:
+  number: "43"

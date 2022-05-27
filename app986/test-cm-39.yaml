@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: test-cm-39
+  namespace: test-ns-986
+data:
+  number: "39"
