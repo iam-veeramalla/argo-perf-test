@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: test-cm-129
+  namespace: test-ns-993
+data:
+  number: "129"

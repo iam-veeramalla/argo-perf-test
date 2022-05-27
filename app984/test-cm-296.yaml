@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: test-cm-296
+  namespace: test-ns-984
+data:
+  number: "296"

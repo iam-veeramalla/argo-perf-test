@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: test-cm-255
+  namespace: test-ns-995
+data:
+  number: "255"

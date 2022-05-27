@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: test-cm-173
+  namespace: test-ns-992
+data:
+  number: "173"

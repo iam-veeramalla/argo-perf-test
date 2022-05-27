@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: test-cm-112
+  namespace: test-ns-992
+data:
+  number: "112"

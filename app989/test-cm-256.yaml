@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: test-cm-256
+  namespace: test-ns-989
+data:
+  number: "256"

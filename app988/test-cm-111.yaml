@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: test-cm-111
+  namespace: test-ns-988
+data:
+  number: "111"

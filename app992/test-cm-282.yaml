@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: test-cm-282
+  namespace: test-ns-992
+data:
+  number: "282"

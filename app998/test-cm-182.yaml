@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: test-cm-182
+  namespace: test-ns-998
+data:
+  number: "182"

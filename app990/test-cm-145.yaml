@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: test-cm-145
+  namespace: test-ns-990
+data:
+  number: "145"

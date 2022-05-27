@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: test-cm-223
+  namespace: test-ns-999
+data:
+  number: "223"

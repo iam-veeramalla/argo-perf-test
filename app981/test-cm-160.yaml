@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: test-cm-160
+  namespace: test-ns-981
+data:
+  number: "160"

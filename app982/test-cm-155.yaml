@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: test-cm-155
+  namespace: test-ns-982
+data:
+  number: "155"
