@@ -4,9 +4,9 @@ metadata:
   annotations:
     controller-gen.kubebuilder.io/version: v0.6.1
   creationTimestamp: null
-  name: argocds.argoproj.io
+  name: argocds.argo.io
 spec:
-  group: argoproj.io
+  group: argo.io
   names:
     kind: ArgoCD
     listKind: ArgoCDList
