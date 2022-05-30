@@ -2,6 +2,31 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: test-cm-1
-  namespace: test-ns-1038
 data:
-  number: "1"
+  test.json: |
+    {
+        "maxThreadCount": 10,
+        "trackerConfigs": [{
+                "url": "https://example1.com/",
+                "username": "username",
+                "password": "password",
+                "defaultLimit": 1
+            },
+            {
+                "url": "https://example2.com/",
+                "username": "username",
+                "password": "password",
+                "defaultLimit": 1
+            }
+        ],
+        "repoConfigs": [{
+            "url": "https://github.com/",
+            "username": "username",
+            "password": "password",
+            "type": "GITHUB"
+        }],
+        "streamConfigs": [{
+            "url": "https://example.com/master.json",
+            "type": "JSON"
+        }]
+    }
